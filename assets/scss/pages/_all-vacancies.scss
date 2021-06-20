@@ -1,0 +1,64 @@
+header.all-vacancies{
+    .logo{
+        a{
+            background-image: url(../images/logo_colored.svg);
+        }
+    }
+}
+
+.vacancies-info-section{
+    padding: 50px 0 20px;
+
+    .info-side{
+        width: 40%;
+
+        h1{
+            font-size: 2rem;
+            color: #222;
+            padding-bottom: 30px;
+        }
+
+        p{
+            font-size: 1.1rem;
+            line-height: 1.56;
+            color: #5F6773;
+            padding-bottom: 20px;
+        }
+
+        a{
+            color: #0e80e5;
+            text-decoration: underline;
+        }
+    }
+
+    img{
+        width: 500px;
+    }
+}
+
+.vacancies-section{
+    background-color: $tertiary-color;
+    padding: 100px 0;
+
+    .col-6{
+        width: calc(100% * 6 / 12 - 30px);
+        border: 1.5px solid $secondary-color;
+        border-radius: 4px;
+        text-align: center;
+        margin-bottom: 50px;
+
+        h2{
+            padding: 50px 20px;
+            color: #222;
+            line-height: 1.3;
+        }
+
+        &:hover{
+            background-color: $secondary-color;
+
+            h2{
+                color:white;
+            }
+        }
+    }
+}

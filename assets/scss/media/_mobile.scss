@@ -1,0 +1,1025 @@
+@media (min-width: 1024px) and (max-width: 1280px) {
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .world-map{
+        display: none;
+    }
+
+    header.sticky{
+        padding: 0 !important;
+        height: 50px;
+
+        & + main{
+            padding-top: 50px;
+        }
+    }
+
+    .menu-btn{
+        display: block;
+    }
+
+    header{
+        height: 40px;
+
+        nav{
+            display: none;
+        }
+    }
+    
+    main{
+        width: 100vw !important;
+        height: calc(100vh - 50px);
+
+        .background-cover{
+            background-position: 60% 50%;
+        }
+
+        .scroll-link{
+            display: none;
+        }
+    }
+
+    .main-header{
+        .info{
+            line-height: 1.2;
+            h1{
+                font-size: 2rem;
+                padding: 10px 0;
+            }
+
+        }
+    }
+
+    .what-we-do{
+        width: 90%;
+        padding: 0 10px 30px 10px;
+        padding-top: 10%;
+    }
+
+    .financial-solutions{
+        padding: 0 20px;
+        .container{
+            h2{
+                margin-top: 20px;
+                font-size: 1.5rem;
+                max-width: 100%;
+            }
+        }
+
+        &__list{
+            padding: 0;
+            li{
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    .achievements{
+        width: 90%;
+        h2{
+            font-size: 2rem;
+            padding-bottom: 0;
+        }
+
+        .col-4{
+            width: 30%;
+            h3{
+                font-size: 2rem;
+            }
+
+            p{
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .world-map-mobile{
+        h2{
+            font-size: 2rem;
+        }
+    }
+
+    .clients{
+        width: 100%;
+        h2{
+            font-size: 2rem;
+            padding: 15px;
+        }
+
+        .clients-rows{
+            .row{
+                margin: 0 !important;
+            }
+
+            .clients-rows__col{
+                width: 30%;
+                margin-bottom: 15px;
+            }
+        }
+
+        span{
+            font-size: 1.2rem;
+        }
+    }
+
+
+    .world-map-mobile{
+        display: block;
+        width: 100%;
+
+        .mobile-map{
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+
+    .team{
+        display: none;
+    }
+
+    .work-with-us{
+        width: 100%;
+
+        h2{
+            font-size: 2rem;
+        }
+
+        .advantages{
+            .col-4{
+                h3{
+                    font-size: 1.18rem;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+
+    .work-article{
+        width: 100%;
+
+        &__image{
+            height: 250px !important;
+            margin: auto;
+            margin-right: -5%;
+        }
+
+        &__text{
+            h3{
+                font-size: 1.3rem !important;
+                padding-bottom: 15px !important;
+            }
+
+            p{
+                font-size: 0.9rem !important;
+                padding-bottom: 15px !important;
+            }
+        }
+    }
+
+    .latest-news{
+        width: 95% !important;
+        h2{
+            font-size: 1.8rem !important;
+        }
+
+            h3{
+                font-size: 0.9rem !important;
+                padding: 20px 0 !important;
+            }
+
+            span{
+                font-size: 0.85rem !important;
+            }
+    }
+
+    .footer{
+        width: 100%;
+
+        .tab-side{
+            li{
+                padding: 0 35px;
+            }
+        }
+    }
+
+        //WHAT WE DO
+            .we-do-bg{
+                background-size: cover;
+            }
+
+        //NEWS
+        .vacancies-main{
+            h1{
+                margin-top: 60px;
+            }
+        }
+
+        .latest-news{
+            width: 100%;
+            margin: 0 auto !important;
+            .news{
+                padding: 30px 0;
+
+                h3{
+                    font-size: 1rem !important;
+                }
+
+                span{
+                    font-size: 1rem !important;
+                }
+            }
+        }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .world-map{
+        display: none;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+
+    header.sticky{
+        padding: 0 !important;
+        height: 50px;
+
+        & + main{
+            padding-top: 50px;
+        }
+    }
+
+    header{
+        height: 40px;
+
+        nav{
+            display: none;
+        }
+    }
+    
+    main{
+        width: 100vw !important;
+        height: calc(100vh - 40px);
+
+        .background-cover{
+            background-position: 60% 50%;
+        }
+
+        .scroll-link{
+            display: none;
+        }
+    }
+
+    .main-header{
+        .info{
+            line-height: 1.2;
+            h1{
+                font-size: 2rem;
+                padding: 10px 0;
+            }
+
+        }
+    }
+
+    .what-we-do{
+        width: 100%;
+        padding: 0 10px 30px 30px;
+        padding-top: 10%;
+
+        h2{
+            font-size: 1.7rem;
+        }
+        .three-parts{
+            margin: 0 10px;
+            &__col{
+                width: 32%;
+            }
+            h3{
+                font-size: 1.2rem;
+            }
+
+            p{
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    .financial-solutions{
+        padding: 0 20px;
+        .container{
+            h2{
+                margin-top: 20px;
+                font-size: 2rem;
+                max-width: 50%;
+            }
+        }
+
+        &__list{
+            padding: 0 40px;
+            li{
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    .achievements{
+        width: 90%;
+        h2{
+            font-size: 2.3rem;
+            padding-bottom: 0;
+        }
+
+        &__row{
+            &__col{
+                h3{
+                    font-size: 2rem;
+                }
+
+                p{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+        &__row + &__row{
+            border-width:initial;
+        }
+    }
+
+    .world-map-mobile{
+        h2{
+            font-size: 2rem;
+        }
+    }
+
+    .clients{
+        width: 100%;
+        h2{
+            font-size: 2rem;
+            padding: 15px;
+        }
+
+        .clients-rows{
+            .row{
+                margin: 0 !important;
+            }
+
+            .clients-rows__col{
+                width: 32%;
+                margin-bottom: 15px;
+            }
+        }
+
+        span{
+            font-size: 1.2rem;
+        }
+    }
+
+
+    .world-map-mobile{
+        display: block;
+        width: 100%;
+
+        .mobile-map{
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+
+    .team{
+        display: none;
+    }
+
+    .work-with-us{
+        width: 100%;
+
+        h2{
+            font-size: 2rem;
+        }
+
+        .advantages{
+            .col-4{
+                h3{
+                    font-size: 1.18rem;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+
+    .work-article{
+        width: 100%;
+
+        &__image{
+            height: 250px !important;
+            margin: auto;
+            margin-right: -5%;
+        }
+
+        &__text{
+            h3{
+                font-size: 1.3rem !important;
+                padding-bottom: 15px !important;
+            }
+
+            p{
+                font-size: 0.9rem !important;
+                padding-bottom: 15px !important;
+            }
+        }
+    }
+
+    .latest-news{
+        width: 95% !important;
+        h2{
+            font-size: 1.8rem !important;
+        }
+
+            h3{
+                font-size: 0.9rem !important;
+                padding: 20px 0 !important;
+            }
+
+            span{
+                font-size: 0.85rem !important;
+            }
+    }
+
+    .footer{
+        width: 100%;
+        .tab-side{
+            div{
+                flex-direction: column;
+
+                .our-branches{
+                    align-self: flex-start;
+                    margin : 30px;
+                }
+            }
+        }
+
+        .tab-info{
+            span{
+                font-size: 0.9rem !important;
+            }
+
+            p{
+                font-size: 0.85rem !important;
+            }
+        }
+
+        &__last{
+            .author{
+                width: 100%;
+            }
+
+            .copyright{
+                width: 100%;
+            }
+        }
+    }
+
+
+    //WHAT WE DO
+    .what-we-do-main{
+        width: 100vw !important;
+        height: 270px !important;
+        .we-do-bg{
+            height: 270px !important;
+            background-size: cover;
+            &::before{
+                width: 100%;
+                height: 270px;
+            }
+        }
+
+        h1{
+            font-size: 1.5rem;
+            padding-top: 150px;
+        }
+    }
+
+    .we-do-section{
+        .container{
+            flex-direction: column;
+            .image-side{
+                width: 100%;
+            }
+
+            .info-text{
+                width: 100%;
+            }
+        }
+    }
+
+    .vacancies-info-section{
+        .info-side{
+            h1{
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    .vacancies-section{
+        .col-6{
+            margin-bottom: 20px;
+
+            h2{
+                font-size: 1.2rem;
+                padding: 30px 10px;
+            }
+        }
+    }
+
+        //IT SENIOR
+        .vacancies-main{
+            width: 100vw;
+            height: 190px !important;
+            padding-bottom: 30px;
+    
+            h1{
+                font-size: 1.8rem;
+            }
+        }
+    
+        .apply-section{
+            padding:60px 20px;
+    
+            .vacancy_col{
+                margin-bottom: 15px;
+            }
+    
+            h2{
+                padding-bottom: 40px;
+            }
+            .input{
+                width: 90%;
+            }
+    
+            .file-upload{
+                width: 45%;
+            }
+    
+            .apply{
+                width: 45%;
+            }
+        }
+    
+        .vacancy-advantages{
+            text-align: center;
+            h3{
+                font-size:1rem;
+                line-height: 1.5;
+            }
+        }
+
+    //NEWS
+        .vacancies-main{
+            h1{
+                margin-top: 60px;
+            }
+        }
+
+        .latest-news{
+            width: 100%;
+            margin: 0 auto !important;
+            .news{
+                width: 48%;
+                padding: 30px 0;
+
+                h3{
+                    font-size: 1rem !important;
+                }
+
+                span{
+                    font-size: 1rem !important;
+                }
+            }
+        }
+
+    //OUR BRANCHES
+    .city{
+        width: 48% !important;
+    }
+
+    
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .world-map{
+        display: none;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+    header.sticky{
+        padding: 0 !important;
+        height: 50px;
+
+        & + main{
+            padding-top: 50px;
+        }
+    }
+
+    header{
+        height: 40px;
+
+        nav{
+            display: none;
+        }
+    }
+    
+    main{
+        width: 100vw !important;
+        height: calc(100vh - 40px);
+
+        .background-cover{
+            background-position: 60% 50%;
+            background-size: cover;
+        }
+
+        .scroll-link{
+            display: none;
+        }
+    }
+
+    .main-header{
+        .info{
+            line-height: 1.2;
+            h1{
+                font-size: 1.8rem;
+                padding: 20px 0;
+            }
+
+        }
+    }
+
+    .what-we-do{
+        padding: 0 10px 30px 10px;
+        padding-top: 20%;
+        width: 90%;
+
+        h2{
+            font-size: 1.7rem;
+        }
+
+        .three-parts{
+            &__col{
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .financial-solutions{
+        padding-bottom: 0;
+        &::before{
+            height: 60%;
+            top: 40%;
+            width: 100%;
+        }
+        .container{
+            div{
+                flex-direction: column;
+                text-align: center;
+
+                h2{
+                    padding: 40px 0;
+                    font-size: 1.5rem;
+                    max-width: 100%;
+                }
+            }
+        }
+
+        &__list{
+            margin-top: 50px;
+            padding: 0;
+            li{
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    .achievements{
+        width: 90%;
+        padding-bottom: 40px;
+        h2{
+            font-size: 1.8rem;
+            padding-bottom: 20px;
+        }
+
+        &__row{
+            border: none !important;
+            &__col{
+                width: 100%;
+                padding-bottom: 0;
+
+                h3{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+
+    .clients{
+        h2{
+            font-size: 1.5rem;
+            padding-bottom: 15px
+        }
+
+        .clients-rows{
+            .row{
+                margin: 0 !important;
+            }
+
+            .clients-rows__col{
+                width: 45%;
+                margin-bottom: 15px;
+            }
+        }
+
+        span{
+            font-size: 1.2rem;
+        }
+    }
+
+    .world-map-mobile{
+        display: block;
+
+        .container{
+            max-width: 1280px !important;
+        }
+
+        .mobile-map{
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+
+    .team{
+        display: none;
+    }
+
+    .work-with-us{
+        h2{
+            font-size: 1.5rem;
+        }
+
+        .advantages{
+            .col-4{
+                text-align: center;
+                h3{
+                    font-size: 1rem;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+
+    .work-article{
+        flex-direction: column;
+
+        &__image{
+            width: 100% !important;
+            img{
+                border-radius: 0% !important;
+            }
+        }
+
+        &__text{
+            width: 95% !important;
+            margin: 0 auto !important;
+            border-radius: 0% !important;
+            padding: 15px !important;
+
+            h3{
+                font-size: 1.5rem !important;
+                padding-bottom: 15px !important;
+            }
+
+            p{
+                padding-bottom: 15px !important;
+            }
+        }
+    }
+
+    .latest-news{
+        width: 90%;
+
+        h2{
+            font-size: 1.8rem;
+        }
+
+        .index_news{
+            width: 100%;
+            margin-bottom: 30px;
+
+            a{
+                .img-zoom-container{
+                    height: 300px;
+                }
+            }
+        }
+    }
+
+    .footer{
+        div{
+            flex-direction: column;
+            
+            .tab-side{
+                width: 100%;
+                text-align: left !important;
+
+                nav{
+                    align-self: flex-start;
+                    padding-left: 0;
+
+                    ul{
+                        margin: 20px 0;
+                    }
+                    li{
+                        font-size: 1rem;
+    
+                        &:first-child{
+                            padding-left: 0;
+                        }
+                    }
+                }
+
+                div{
+                    flex-direction: column;
+
+                    .our-branches{
+                        align-self: flex-start;
+                    }
+                }
+            }
+        }
+
+        .tab-info{
+            li{
+                padding-left: 0;
+            }
+            span{
+                font-size: 0.9rem !important;
+            }
+
+            p{
+                font-size: 0.85rem !important;
+            }
+        }
+
+        &__last{
+            .d-flex{
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .author{
+                width: 100%;
+            }
+
+            .copyright{
+                margin-top: 15px;
+                width: 100%;
+            }
+        }
+    }
+
+    //WHAT WE DO
+    .what-we-do-main{
+        width: 100vw !important;
+        height: 200px !important;
+        .we-do-bg{
+            height: 200px !important;
+            background-size: cover;
+            &::before{
+                width: 100%;
+                height: 200px;
+            }
+        }
+
+        h1{
+            font-size: 1.5rem;
+            padding-top: 100px;
+        }
+    }
+
+    .we-do-section{
+        .container{
+            flex-direction: column;
+            .image-side{
+                width: 100%;
+            }
+
+            .info-text{
+                width: 100%;
+            }
+        }
+    }
+
+    //ALL VACANCIES
+    .vacancies-info-section{
+        .image-side{
+            display: none;
+        }
+
+        .info-side{
+            width: 100%;
+            h1{
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    .vacancies-section{
+        .col-6{
+            width: 95%;
+            margin-bottom: 20px;
+        }
+    }
+
+    //IT SENIOR
+    .vacancies-main{
+        width: 100vw;
+        height: 270px !important;
+        padding-bottom: 30px;
+
+        h1{
+            font-size: 1.8rem;
+        }
+    }
+
+    .apply-section{
+        padding:60px 20px;
+
+        .vacancy_col{
+            margin-bottom: 15px;
+        }
+
+        h2{
+            padding-bottom: 40px;
+        }
+        .input{
+            width: 90%;
+        }
+
+        .file-upload{
+            width: 45%;
+        }
+
+        .apply{
+            width: 45%;
+            a{
+                .image{
+                    padding-left: 80px;
+                }
+            }
+        }
+    }
+
+    .vacancy-advantages{
+        text-align: center;
+        h3{
+            font-size:1rem;
+            line-height: 1.5;
+        }
+    }
+
+    //SIMBRELLA NEWS
+    .news-main{
+        h1{
+            font-size: 1.5rem;
+        }
+
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    //OUR BRANCHES
+        .city{
+            width: 100% !important;
+        }
+}
+
+
+
+

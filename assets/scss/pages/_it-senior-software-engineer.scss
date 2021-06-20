@@ -1,0 +1,147 @@
+.vacancies-bg{
+    background-image: url(../images/vacancies_header_bg.svg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    background-color: #0C0D26;
+}
+
+.vacancies-main{
+    h1{
+        color: white;
+        font-size: 2.25rem;
+        padding: 100px 0 80px;
+    }
+}
+
+.vacancy-description{
+    padding-bottom: 90px;
+    background: $tertiary-color;
+
+    article{
+        padding-top: 60px;
+        border-bottom: 1px solid #E7E7E7;
+
+        h2{
+            font-size: 2.25rem;
+            color: #222;
+        }
+
+        .info-text{
+            width: 100%;
+            padding: 30px 0;
+
+            li{
+                font-size: 1.1rem;
+                padding-bottom: 25px;
+            }
+        }
+
+        &:last-child{
+            border-bottom:none
+        }
+    }
+}
+
+.apply-section{
+    background-color: $primary-color;
+    padding: 120px 0;
+
+    .apply-success{
+        display: none;
+        max-width: 440px;
+        padding: 32px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 4px;
+
+        p{
+            padding: 80px 0 0;
+            font-size: 32px;
+            line-height: 1.5;
+            letter-spacing: 0.01em;
+            color: #fff;
+            background: url(../icons/success_green_icon.svg) no-repeat 0 0;
+        }
+    }
+
+    .vacancy-form{
+        padding-bottom: 80px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    h2{
+        color: white;
+        font-size: 2.25rem;
+        padding-bottom: 80px;
+    }
+
+
+    input{
+        display: block;
+        background: none;
+        width: 100%;
+        padding: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 12px;
+        font-size: 1rem;
+        color: white;
+
+        &:focus{
+            outline: 0;
+            border: 1px solid rgba(255, 255, 255, 0.9);
+            background: rgba(0, 0, 0, 0.05);
+        }
+
+    }
+
+    .vacancy_col{
+        width: calc(100% * 3 / 12 - 80px);
+        padding: 0;
+    }
+
+    .file-upload{
+        padding: 20px 0 0 0;
+        border: 1px dashed rgba(255, 255, 255, 0.5);
+        border-radius: 12px;
+        text-align: center;
+        cursor: pointer;
+
+        span{
+            display: inline-block;
+            padding: 5px 10px 5px 20px;
+            color: white;
+            font-weight: bold;
+            white-space: nowrap;
+            background: url(../icons/file_white_icon.svg);
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+        }
+    }
+
+    .apply{
+        a{
+            padding: 7px 40px 7px 24px;
+            color: white;
+
+            .image{
+                padding-left: 60px;
+            }
+        }
+    }
+}
+
+.vacancy-advantages{
+    padding-top: 90px;
+
+    h3{
+        color: white;
+        padding-top: 20px;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,12 @@
+.news{
+    width: calc(100% * 4 / 12 - 30px);
+    padding: 20px 0;
+    img{
+        border-radius: 4px;
+        transition:none;
+
+        &:hover{
+            transform: none
+        }
+    }
+}

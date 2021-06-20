@@ -1,0 +1,21 @@
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/bootstrap-grid.scss";
+@import "../bootstrap/scss/list-group";
+
+// Variables
+@import "./variables/color";
+
+
+// Pages
+@import "./pages/index";
+@import "./pages/what-we-do";
+@import "./pages/all-vacancies";
+@import "./pages/it-senior-software-engineer";
+@import "./pages/all-branches";
+@import "./pages/news";
+@import "./pages/simbrella-receives-iso-27001-certification-for-succesful-implementation-of-information-security-management-system";
+
+//MOBILE
+@import "./media/mobile";
+
+
